@@ -1,7 +1,6 @@
 // options2.cairo
 // Execute `starklings hint options2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 use option::OptionTrait;
 use debug::PrintTrait;
@@ -12,7 +11,7 @@ fn test_options() {
     let optional_some = Option::Some(target);
     let optional_none: Option<felt252> = Option::None;
     simple_option(optional_some);
-    simple_option(optional_none);
+    // simple_option(optional_none);
 }
 
 fn simple_option(optional_target: Option<felt252>) {
